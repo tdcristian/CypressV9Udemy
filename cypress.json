@@ -1,0 +1,19 @@
+{
+  "baseUrl":"http://www.webdriveruniversity.com/",
+  "theme": "dark",
+  "chromeWebSecurity": false,
+  "pageLoadTimeout":30000,
+  "env": {
+    "webdriver_homepage": "http://www.webdriveruniversity.com/",
+    "first_name":"sarah"
+  },
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "videosFolder": "cypress/videos/testExecutionVideos",
+   "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "configFile": "reporter-config.json"
+  }
+}

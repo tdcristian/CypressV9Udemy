@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2022-03-05T07:54:13" tests="0" file="cypress/integration/webdriver-uni/contact-us.js" time="0.0000" failures="0"/>
+<testsuite name="Test contact us form via webdriver unit" timestamp="2022-03-05T07:54:13" tests="2" time="5.4430" failures="0">
+  
+  <testcase name="Test contact us form via webdriver unit should be able to submit a successful submission via contact us" time="3.7310" classname="should be able to submit a successful submission via contact us"/>
+  
+  <testcase name="Test contact us form via webdriver unit should not be able to submit a successful submission via contact us as all fields are required" time="1.7630" classname="should not be able to submit a successful submission via contact us as all fields are required"/>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2022-03-05T07:55:10" tests="0" file="cypress/integration/webdriver-uni/contact-us.js" time="0.0000" failures="0"/>
+<testsuite name="Test contact us form via webdriver unit" timestamp="2022-03-05T07:55:10" tests="2" time="5.5050" failures="0">
+  
+  <testcase name="Test contact us form via webdriver unit should be able to submit a successful submission via contact us" time="3.7630" classname="should be able to submit a successful submission via contact us"/>
+  
+  <testcase name="Test contact us form via webdriver unit should not be able to submit a successful submission via contact us as all fields are required" time="1.7810" classname="should not be able to submit a successful submission via contact us as all fields are required"/>
+  
+</testsuite>
+
+</testsuites>

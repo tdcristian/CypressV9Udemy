@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-05T08:40:24.365Z",
+    "end": "2022-03-05T08:40:25.414Z",
+    "duration": 1002,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bd93ad70-f477-4fdb-911d-fd72522c4ea0",
+      "title": "",
+      "fullFile": "cypress/integration/webdriver-uni/checkboxes.js",
+      "file": "cypress/integration/webdriver-uni/checkboxes.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f5c33ce4-ab99-4022-9d9a-01a1e49ecf74",
+          "title": "Verify checkboxes",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Checkbox multiple checkboxes",
+              "fullTitle": "Verify checkboxes Checkbox multiple checkboxes",
+              "timedOut": null,
+              "duration": 1002,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(\"input[type='checkbox']\").check([\"option-1\", \"option-2\", \"option-3\", \"option-4\"]).should(\"be.checked\");",
+              "err": {},
+              "uuid": "76935c2c-564e-4dcc-8a47-eead92edd8f8",
+              "parentUUID": "f5c33ce4-ab99-4022-9d9a-01a1e49ecf74",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "76935c2c-564e-4dcc-8a47-eead92edd8f8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1002,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.1.0"
+    }
+  }
+}
