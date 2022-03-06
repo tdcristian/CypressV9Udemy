@@ -19,7 +19,7 @@ describe("Add multiple items to the basket", () => {
     // cy.get("a[href*='product/category&path=']").contains("Hair Care").click();
   });
 
-  it("Add specific items to basket", () => {
+  it("Add specific items to the basket", () => {
     // globalThis.data.productName.forEach(function (element) {
     //   cy.addProductToBasket(element);
     // });
