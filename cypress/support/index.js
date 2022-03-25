@@ -18,7 +18,6 @@ import "./commands";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-require("cypress-dark");
 require('cypress-xpath');
 
 Cypress.Server.defaults({
